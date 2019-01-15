@@ -1,0 +1,13 @@
+# 二维火对接类库
+１:App.config内容如下
+  <appSettings>
+    <add key="url" value="http://open.2dfire.com/router"/>
+    <add key="orderlistmethod" value="dfire.shop.order.list"/>
+    <add key="instancelist" value="dfire.shop.order.instance.list"/>
+    <add key="v" value="1.0"/>
+    <add key="shoplist" value="dfire.shop.list"/>
+  </appSettings>
+  2:实现如下函数
+  　shopOrderList查询店铺订单列表
+　　shopOrderInfo查询店铺店铺订单详细列表
+  　shoplistData查询绑定店铺订单列表
